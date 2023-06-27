@@ -52,7 +52,7 @@
                         </div>
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="/" class="nav__link">Home</a>
+                                <a href="index.html" class="nav__link">Home</a>
                             </li>
                             <li class="nav__item">
                                 <a href="#" class="nav__link">Products</a>
@@ -132,7 +132,7 @@
                                             </a>
                                         </td>
                                         <td class="product__name">
-                                            <a href="#">Apple iPhone 11</a>
+                                            <a href="#">Apple iPhone 1</a>
                                             <br><br>
                                             <small>White/6.25</small>
                                         </td>
@@ -145,15 +145,11 @@
                                             <div class="input-counter">
                                                 <div>
                                                     <span class="minus-btn">
-                                                        <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-minus"></use>
-                                                        </svg>
+                                                        <ion-icon name="remove-outline" onclick="decreaseCount1()"></ion-icon>
                                                     </span>
-                                                    <input type="text" min="1" value="1" max="10" class="counter-btn">
+                                                    <input type="text" min="1" value="3" max="10" class="counter-btn" id="counterbtn11">
                                                     <span class="plus-btn">
-                                                        <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-plus"></use>
-                                                        </svg>
+                                                        <ion-icon name="add-outline" onclick="increaseCount11()"></ion-icon>
                                                     </span>
                                                 </div>
                                             </div>
@@ -176,7 +172,7 @@
                                             </a>
                                         </td>
                                         <td class="product__name">
-                                            <a href="#">Apple iPhone 11</a>
+                                            <a href="#">Apple iPhone 2</a>
                                             <br><br>
                                             <small>White/6.25</small>
                                         </td>
@@ -189,15 +185,11 @@
                                             <div class="input-counter">
                                                 <div>
                                                     <span class="minus-btn">
-                                                        <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-minus"></use>
-                                                        </svg>
+                                                        <ion-icon name="remove-outline" onclick="decreaseCount2()"></ion-icon>
                                                     </span>
-                                                    <input type="text" min="1" value="1" max="10" class="counter-btn">
+                                                    <input type="text" min="1" value="3" max="10" class="counter-btn" id="counterbtn2">
                                                     <span class="plus-btn">
-                                                        <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-plus"></use>
-                                                        </svg>
+                                                        <ion-icon name="add-outline" onclick="increaseCount()"></ion-icon>
                                                     </span>
                                                 </div>
                                             </div>
@@ -220,7 +212,7 @@
                                             </a>
                                         </td>
                                         <td class="product__name">
-                                            <a href="#">Apple iPhone 11</a>
+                                            <a href="#">Apple iPhone 3</a>
                                             <br><br>
                                             <small>White/6.25</small>
                                         </td>
@@ -233,15 +225,11 @@
                                             <div class="input-counter">
                                                 <div>
                                                     <span class="minus-btn">
-                                                        <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-minus"></use>
-                                                        </svg>
+                                                        <ion-icon name="remove-outline" onclick="decreaseCount3()"></ion-icon>
                                                     </span>
-                                                    <input type="text" min="1" value="1" max="10" class="counter-btn">
+                                                    <input type="text" min="1" value="3" max="10" class="counter-btn" id="counterbtn3">
                                                     <span class="plus-btn">
-                                                        <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-plus"></use>
-                                                        </svg>
+                                                        <ion-icon name="add-outline" onclick="increaseCount3()"></ion-icon>
                                                     </span>
                                                 </div>
                                             </div>
@@ -264,7 +252,7 @@
                                             </a>
                                         </td>
                                         <td class="product__name">
-                                            <a href="#">Apple iPhone 11</a>
+                                            <a href="#">Apple iPhone 4</a>
                                             <br><br>
                                             <small>White/6.25</small>
                                         </td>
@@ -277,15 +265,11 @@
                                             <div class="input-counter">
                                                 <div>
                                                     <span class="minus-btn">
-                                                        <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-minus"></use>
-                                                        </svg>
+                                                        <ion-icon name="remove-outline" onclick="decreaseCount4()"></ion-icon>
                                                     </span>
-                                                    <input type="text" min="1" value="1" max="10" class="counter-btn">
+                                                    <input type="text" min="1" value="3" max="10" class="counter-btn" id="counterbtn4">
                                                     <span class="plus-btn">
-                                                        <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-plus"></use>
-                                                        </svg>
+                                                        <ion-icon name="add-outline" onclick="increaseCount4()"></ion-icon>
                                                     </span>
                                                 </div>
                                             </div>
@@ -478,6 +462,9 @@
     <script src="./js/products.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="./js/counting.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
